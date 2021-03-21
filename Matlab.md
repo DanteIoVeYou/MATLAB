@@ -278,3 +278,9 @@ nargout: Number of function output arguments
 varargin: Variable length input argument list
 
 varargout: Variable length output argument list
+
+
+
+Function Handles
+
+- A way to create anonymous functions , one line expression functions that do not have to be defined in .m files
