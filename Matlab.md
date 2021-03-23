@@ -64,8 +64,6 @@ pi
 
    M-file
 
-   
-
    ``clear variable``
 
 #### Numeric Display "Format"
@@ -148,7 +146,7 @@ a=10
 
 
 
-Colon Operator
+### Colon Operator
 
 - Want to create a long array: A = [1 2 3 ... 100]
 
@@ -160,7 +158,7 @@ Colon Operator
 
 
 
-Some Special Matrix
+### Some Special Matrix
 
 eye(n)
 
@@ -219,7 +217,7 @@ end
 
 
 
-Pre-allocating Space to variables
+### Pre-allocating Space to variables
 
 - In the previous example, we do not pre-allocate space to vector a rather than letting MATLAB resize it on every iteration
 
@@ -241,7 +239,7 @@ Pre-allocating Space to variables
 
 
 
-Tips for Script Writing
+### Tips for Script Writing
 
 - At the beginning of your script, use command
   - clear all 
@@ -249,11 +247,11 @@ Tips for Script Writing
 
 
 
-Exercise 
+### Exercise 
 
 - Write a function that asks for a temperature in degrees Fahrenheit
 
-- Compute the equivalent temperate in degrees Celsius
+- Compute the equivalent temperate in degrees Celsius 
 
 - Show the converted temperates in degrees Celsius
 
@@ -265,7 +263,7 @@ Exercise
 
 
 
-Function Default Variables
+### Function Default Variables
 
 inputname: Variable name of function inut
 
@@ -281,6 +279,27 @@ varargout: Variable length output argument list
 
 
 
-Function Handles
+### Function Handles
 
 - A way to create anonymous functions , one line expression functions that do not have to be defined in .m files
+
+
+
+## MATLAB Variable Type
+
+Logical Operations and Assignments
+
+-  Many numerical and logical operators can be applied to strings
+
+  ``str = 'emample'``
+
+  ``'a' == str``
+
+- Try this :
+
+  ``str(str == 'e') = 'Q'``
+
+- <font color="blue">What if we wanna compare the entire string with another?</font>
+
+
+
